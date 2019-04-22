@@ -382,10 +382,10 @@ painter.cfg: OK
 Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
-[nglemp.release]: https://mega.nz/nglemp/nglemp.v0.5.1.0.7z
+[nglemp.release]: https://links.snahp.it/hW12j6rLJC4R4GYUx1BKn1JAcpfaWEFZYNU
 [nglemp.readme]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md
 [integrity]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md#checksums
-[ccx.start]: https://mega.nz/nglemp/com.adobe.ccx.start.7z
+[ccx.start]: https://links.snahp.it/qcB679fxpTCaqv30DitWoHG1gnXmeB7g7BI
 [issue]: https://github.com/NGLEmp/NGLEmp/issues
 [ps.plugin]: https://en.wikipedia.org/wiki/Photoshop_plugin
 [privacy]: https://www.adobe.com/privacy.html
