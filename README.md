@@ -1,6 +1,6 @@
 # NGLEmp
 
-Best Photoshop CC 2019 plugin.
+Best Photoshop CC 2019 and Photoshop CC 2020 plugin.
 
 ![](NGLEmp.png)
 
@@ -11,6 +11,7 @@ Best Photoshop CC 2019 plugin.
 - [Introduction](#introduction)
 - [Features](#main-features)
 - [Supported Products](#supported-products)
+- [Versions History](#nglemp-versions-history)
 - [Package Content](#package-content)
 - [Install](#install)
 - [Uninstall](#uninstall)
@@ -26,7 +27,7 @@ Best Photoshop CC 2019 plugin.
 - [NGLEmp Project Status](#nglemp-project-status)
 - [Target Audience](#target-audience)
 
-**NGLEmp** is an offline license enabler for Photoshop CC 2019 implemented as [Photoshop plugin][ps.plugin].
+**NGLEmp** is an offline license enabler for Photoshop CC 2019 | 2020 implemented as [Photoshop plugin][ps.plugin].
 
 
 ### NGLEmp Project Status
@@ -67,16 +68,42 @@ This means:
 
 ## Supported Products
 
-- Adobe Photoshop CC 2019
+- Adobe Photoshop CC 2020 (`21.0`)
+- Adobe Photoshop CC 2019 (`20.0`)
 
 
 ## Tested Photoshop versions
 
-- CC 2019 `20.0.0`
-- CC 2019 `20.0.1`
-- CC 2019 `20.0.2`
-- CC 2019 `20.0.3`
+### Adobe Photoshop CC 2020
+
+- CC 2020 `21.0.0` - pre-release (`21.0.0.37`)
+
+### Adobe Photoshop CC 2019
+
+- CC 2019 `20.0.7`
+- CC 2019 `20.0.6`
+- CC 2019 `20.0.5`
 - CC 2019 `20.0.4`
+- CC 2019 `20.0.3`
+- CC 2019 `20.0.2`
+- CC 2019 `20.0.1`
+- CC 2019 `20.0.0`
+
+---
+
+## NGLEmp Versions History
+
+### 0.6.9.0
+
+`29 October 2019`
+- [x] Support for Adobe Photoshop CC `2020`
+
+### 0.5.1.0
+
+`22 April 2019`
+- [ ] Initial release
+- [x] Support for Adobe Photoshop CC `2019`
+
 
 ---
 
@@ -115,9 +142,9 @@ Optional components:
 
 ### Installation paths
 
-All relative paths are in Adobe Photoshop CC 2019 installation folder.
+All relative paths are in Adobe Photoshop CC installation folder.
 
-Default Photoshop CC 2019 installation path:
+For example, default Photoshop CC 2019 installation path:
 
 ```
 %ProgramFiles%\Adobe\Adobe Photoshop CC 2019\
@@ -129,12 +156,12 @@ Default **NGLEmp** installation path:
 %ProgramFiles%\Adobe\Adobe Photoshop CC 2019\Required\Plug-ins\Extensions\
 ```
 
-Note: You need to use real Adobe Photoshop CC 2019 installation path on your system.
+Note: You need to use real Adobe Photoshop CC 2019 | 2020 installation path on your system.
 
 
 ### Existing Licensed Installation
 
-If you already have licensed Adobe Photoshop CC 2019 installed, then you may write down your legal Adobe Photoshop Serial number to use it later.
+If you already have licensed Adobe Photoshop CC installed, then you may write down your legal Adobe Photoshop Serial number to use it later.
 
 1. Open Photoshop menu `Help -> System info...`
 2. Find string `Serial number:` in the Photoshop system report.
@@ -151,7 +178,7 @@ Easy way to install and manage your Creative Cloud apps and services is [Creativ
 [Adobe ID][aid] is required for this type of installation!
 
 1. Install [Creative Cloud Desktop Application][cc.desktop.app].
-2. Install Adobe Photoshop CC 2019 using Creative Cloud Desktop Application.
+2. Install Adobe Photoshop CC 2019 | 2020 using Creative Cloud Desktop Application.
 3. Install **NGLEmp**: see [NGLEmp Installation](#nglemp-installation).
 4. Enjoy!
 
@@ -162,7 +189,7 @@ Note: in this case you'll have bloated Creative Cloud desktop software installed
 
 This type of installation doesn't require Adobe ID.
 
-1. Install Adobe Photoshop CC 2019 using CCMaker (recommended) or by extracting installation files.
+1. Install Adobe Photoshop CC 2019 | 2020 using CCMaker (recommended) or by extracting installation files.
 2. Install **NGLEmp**: see [NGLEmp Installation](#nglemp-installation).
 3. Enjoy!
 
@@ -183,14 +210,20 @@ Always [verify integrity](#checksums) of NGLEmp release before installation!
 	- `NGLEmp.8bx`
 	- `painter.cfg`
 
-Install batch sample (admin rights required):
+### Install batch sample (install.cmd)
 
 ```sh
-set dest = %ProgramFiles%\\Adobe\\Adobe Photoshop CC 2019\\Required\\Plug-ins\\Extensions
+@echo off
+set PS_VERSION=2019
+set dest=%ProgramFiles%\Adobe\Adobe Photoshop CC %PS_VERSION%\Required\Plug-ins\Extensions
 copy /b NGLEmp.8bx "%dest%"
 copy /b painter.cfg "%dest%"
 ```
 
+Notes:
+- Admin rights required.
+- Change `PS_VERSION` to your Photoshop version.
+- You need to use real Adobe Photoshop CC installation path on your system.
 
 ### Verify installation
 
@@ -236,17 +269,22 @@ Search web for alternative Home Screen. There are some.
 
 ## Uninstall
 
-Remove `NGLEmp.8bx` and `painter.cfg` from `.\Required\Plug-ins\Extensions` folder.
+- Remove `NGLEmp.8bx` and `painter.cfg` from `.\Required\Plug-ins\Extensions` folder.
 
-Uninstall batch sample (admin rights required):
+### Uninstall batch sample (uninstall.cmd)
 
 ```sh
-cd "%ProgramFiles%\Adobe\Adobe Photoshop CC 2019\Required\Plug-ins\Extensions"
-del /f NGLEmp.8bx
-del /f painter.cfg
+@echo off
+set PS_VERSION=2019
+set dest=%ProgramFiles%\Adobe\Adobe Photoshop CC %PS_VERSION%\Required\Plug-ins\Extensions
+del /f "%dest%\NGLEmp.8bx"
+del /f "%dest%\painter.cfg"
 ```
 
-Note: You need to use real Adobe Photoshop CC 2019 installation path on your system.
+Notes:
+- Admin rights required.
+- Change `PS_VERSION` to your Photoshop version.
+- You need to use real Adobe Photoshop CC installation path on your system.
 
 ---
 
@@ -321,6 +359,7 @@ Possible fields to edit in `painter.cfg`:
 	- CountryCode
 - `Enigma` structure:
 	- Serial
+	- Version
 
 ### Should I use Cloud account?
 
@@ -353,6 +392,19 @@ Get valid checksums [online at NGLEmp project page][integrity].
 
 SHA-1 checksums of main files (stored in `NGLEmp.sha1`):
 
+#### NGLEmp v0.6.9.0
+
+For Adobe Photoshop CC 2019 and Adobe Photoshop CC 2020 pre-release.
+
+```
+6d2a3186ba475a1692fd5342b9aa27c30a4ca6f5  NGLEmp.8bx
+e10dfca9763999333949207b1504aa1c442a45e4  painter.cfg
+```
+
+#### NGLEmp v0.5.1.0
+
+For Adobe Photoshop CC 2019 only.
+
 ```
 5e793caa28e2736f92ce7e31af38e889587541a1  NGLEmp.8bx
 79cf48966af218196042087cb8ba1a8cdee3264d  painter.cfg
@@ -382,7 +434,8 @@ painter.cfg: OK
 Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
-[nglemp.release]: https://links.snahp.it/hW12j6rLJC4R4GYUx1BKn1JAcpfaWEFZYNU
+[nglemp.release]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
+[nglemp.release.0.5.1.0]: https://links.snahp.it/hW12j6rLJC4R4GYUx1BKn1JAcpfaWEFZYNU
 [nglemp.readme]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md
 [integrity]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md#checksums
 [ccx.start]: https://links.snahp.it/qcB679fxpTCaqv30DitWoHG1gnXmeB7g7BI
