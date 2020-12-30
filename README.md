@@ -1,6 +1,6 @@
 # NGLEmp
 
-Best Photoshop CC 2019 and Photoshop CC 2020 plugin.
+Best Photoshop CC 2019-2021 plugin.
 
 ![](NGLEmp.png)
 
@@ -27,7 +27,7 @@ Best Photoshop CC 2019 and Photoshop CC 2020 plugin.
 - [NGLEmp Project Status](#nglemp-project-status)
 - [Target Audience](#target-audience)
 
-**NGLEmp** is an offline license enabler for Photoshop CC 2019 | 2020 implemented as [Photoshop plugin][ps.plugin].
+**NGLEmp** is an offline license enabler for Photoshop CC 2019 | 2020 | 2021 implemented as [Photoshop plugin][ps.plugin].
 
 
 ### NGLEmp Project Status
@@ -68,30 +68,38 @@ This means:
 
 ## Supported Products
 
-- Adobe Photoshop CC 2020 (`21.0`)
+- Adobe Photoshop CC 2021 (`22.1`, `22.0`)
+- Adobe Photoshop CC 2020 (`21.0`
 - Adobe Photoshop CC 2019 (`20.0`)
 
 
 ## Tested Photoshop versions
 
+### Adobe Photoshop CC 2021
+
+- CC 2019 `22.0.1`, `22.0.1` — `22.1.0`
+
 ### Adobe Photoshop CC 2020
 
-- CC 2020 `21.0.0` - pre-release (`21.0.0.37`)
+- CC 2020 `21.0.0` - `21.2.4`
 
 ### Adobe Photoshop CC 2019
 
-- CC 2019 `20.0.7`
-- CC 2019 `20.0.6`
-- CC 2019 `20.0.5`
-- CC 2019 `20.0.4`
-- CC 2019 `20.0.3`
-- CC 2019 `20.0.2`
-- CC 2019 `20.0.1`
-- CC 2019 `20.0.0`
+- CC 2019 `20.0.0` — `20.0.10`
 
 ---
 
 ## NGLEmp Versions History
+
+### 0.7.0.0
+
+`29 December 2020`
+- [x] Support for Adobe Photoshop CC `2021`
+- [x] Display plugin and host versions
+- [x] Patterns are updated for different versions to speedup initial launch
+- [x] Host version autodetect. Version info removed from config
+- [x] Stability and performance improvements
+- [x] Tested all available public versions (2019, 2020, 2021)
 
 ### 0.6.9.0
 
@@ -392,6 +400,15 @@ Get valid checksums [online at NGLEmp project page][integrity].
 
 SHA-1 checksums of main files (stored in `NGLEmp.sha1`):
 
+#### NGLEmp 0.7.0.0
+
+For Adobe Photoshop CC 2019-2021.
+
+```
+5f0e96670289533de9d05ff8586b8df32ed6b5d4  NGLEmp.8bx
+18ddd0c443018a0c01236b3831af88787319b394  painter.cfg
+```
+
 #### NGLEmp v0.6.9.0
 
 For Adobe Photoshop CC 2019 and Adobe Photoshop CC 2020 pre-release.
@@ -435,6 +452,7 @@ Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
 [nglemp.release]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
+[nglemp.release.0.6.9.0]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
 [nglemp.release.0.5.1.0]: https://links.snahp.it/hW12j6rLJC4R4GYUx1BKn1JAcpfaWEFZYNU
 [nglemp.readme]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md
 [integrity]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md#checksums
