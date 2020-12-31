@@ -1,6 +1,6 @@
 # NGLEmp
 
-Best Photoshop CC 2019-2021 plugin.
+Best Photoshop 2021 and Photoshop CC 2019-2020 plugin.
 
 ![](NGLEmp.png)
 
@@ -27,7 +27,7 @@ Best Photoshop CC 2019-2021 plugin.
 - [NGLEmp Project Status](#nglemp-project-status)
 - [Target Audience](#target-audience)
 
-**NGLEmp** is an offline license enabler for Photoshop CC 2019 | 2020 | 2021 implemented as [Photoshop plugin][ps.plugin].
+**NGLEmp** is an offline license enabler for Photoshop 2021 | CC 2020 | СС 2019 implemented as [Photoshop plugin][ps.plugin].
 
 
 ### NGLEmp Project Status
@@ -68,16 +68,16 @@ This means:
 
 ## Supported Products
 
-- Adobe Photoshop CC 2021 (`22.1`, `22.0`)
+- Adobe Photoshop 2021 (`22.1`, `22.0`)
 - Adobe Photoshop CC 2020 (`21.0`
 - Adobe Photoshop CC 2019 (`20.0`)
 
 
 ## Tested Photoshop versions
 
-### Adobe Photoshop CC 2021
+### Adobe Photoshop 2021
 
-- CC 2019 `22.0.1`, `22.0.1` — `22.1.0`
+- 2021 `22.0.0`, `22.0.1` — `22.1.0`
 
 ### Adobe Photoshop CC 2020
 
@@ -94,7 +94,7 @@ This means:
 ### 0.7.0.0
 
 `29 December 2020`
-- [x] Support for Adobe Photoshop CC `2021`
+- [x] Support for Adobe Photoshop `2021`
 - [x] Display plugin and host versions
 - [x] Patterns are updated for different versions to speedup initial launch
 - [x] Host version autodetect. Version info removed from config
@@ -150,26 +150,26 @@ Optional components:
 
 ### Installation paths
 
-All relative paths are in Adobe Photoshop CC installation folder.
+All relative paths are in Adobe Photoshop installation folder.
 
-For example, default Photoshop CC 2019 installation path:
+For example, default Photoshop 2021 installation path:
 
 ```
-%ProgramFiles%\Adobe\Adobe Photoshop CC 2019\
+%ProgramFiles%\Adobe\Adobe Photoshop 2021\
 ```
 
 Default **NGLEmp** installation path:
 
 ```
-%ProgramFiles%\Adobe\Adobe Photoshop CC 2019\Required\Plug-ins\Extensions\
+%ProgramFiles%\Adobe\Adobe Photoshop 2021\Required\Plug-ins\Extensions\
 ```
 
-Note: You need to use real Adobe Photoshop CC 2019 | 2020 installation path on your system.
+Note: You need to use real Adobe Photoshop 2021 | CC 2020 | CC 2019 installation path on your system.
 
 
 ### Existing Licensed Installation
 
-If you already have licensed Adobe Photoshop CC installed, then you may write down your legal Adobe Photoshop Serial number to use it later.
+If you already have licensed Adobe Photoshop installed, then you may write down your legal Adobe Photoshop Serial number to use it later.
 
 1. Open Photoshop menu `Help -> System info...`
 2. Find string `Serial number:` in the Photoshop system report.
@@ -186,7 +186,7 @@ Easy way to install and manage your Creative Cloud apps and services is [Creativ
 [Adobe ID][aid] is required for this type of installation!
 
 1. Install [Creative Cloud Desktop Application][cc.desktop.app].
-2. Install Adobe Photoshop CC 2019 | 2020 using Creative Cloud Desktop Application.
+2. Install Adobe Photoshop 2021 | CC 2020 | CC 2019 using Creative Cloud Desktop Application.
 3. Install **NGLEmp**: see [NGLEmp Installation](#nglemp-installation).
 4. Enjoy!
 
@@ -197,7 +197,7 @@ Note: in this case you'll have bloated Creative Cloud desktop software installed
 
 This type of installation doesn't require Adobe ID.
 
-1. Install Adobe Photoshop CC 2019 | 2020 using CCMaker (recommended) or by extracting installation files.
+1. Install Adobe Photoshop 2021 | CC 2020 | CC 2019 using CCMaker (recommended) or by extracting installation files.
 2. Install **NGLEmp**: see [NGLEmp Installation](#nglemp-installation).
 3. Enjoy!
 
@@ -222,8 +222,8 @@ Always [verify integrity](#checksums) of NGLEmp release before installation!
 
 ```sh
 @echo off
-set PS_VERSION=2019
-set dest=%ProgramFiles%\Adobe\Adobe Photoshop CC %PS_VERSION%\Required\Plug-ins\Extensions
+set PS_VERSION=2021
+set dest=%ProgramFiles%\Adobe\Adobe Photoshop %PS_VERSION%\Required\Plug-ins\Extensions
 copy /b NGLEmp.8bx "%dest%"
 copy /b painter.cfg "%dest%"
 ```
@@ -231,7 +231,10 @@ copy /b painter.cfg "%dest%"
 Notes:
 - Admin rights required.
 - Change `PS_VERSION` to your Photoshop version.
-- You need to use real Adobe Photoshop CC installation path on your system.
+	- `PS_VERSION=2021`
+	- `PS_VERSION=CC 2020` 
+	- `PS_VERSION=CC 2019` 
+- You need to use real Adobe Photoshop installation path on your system.
 
 ### Verify installation
 
@@ -283,8 +286,8 @@ Search web for alternative Home Screen. There are some.
 
 ```sh
 @echo off
-set PS_VERSION=2019
-set dest=%ProgramFiles%\Adobe\Adobe Photoshop CC %PS_VERSION%\Required\Plug-ins\Extensions
+set PS_VERSION=2021
+set dest=%ProgramFiles%\Adobe\Adobe Photoshop %PS_VERSION%\Required\Plug-ins\Extensions
 del /f "%dest%\NGLEmp.8bx"
 del /f "%dest%\painter.cfg"
 ```
@@ -292,7 +295,7 @@ del /f "%dest%\painter.cfg"
 Notes:
 - Admin rights required.
 - Change `PS_VERSION` to your Photoshop version.
-- You need to use real Adobe Photoshop CC installation path on your system.
+- You need to use real Adobe Photoshop installation path on your system.
 
 ---
 
@@ -402,7 +405,7 @@ SHA-1 checksums of main files (stored in `NGLEmp.sha1`):
 
 #### NGLEmp 0.7.0.0
 
-For Adobe Photoshop CC 2019-2021.
+For Adobe Photoshop 2021, CC 2019-2020.
 
 ```
 5f0e96670289533de9d05ff8586b8df32ed6b5d4  NGLEmp.8bx
@@ -451,7 +454,8 @@ painter.cfg: OK
 Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
-[nglemp.release]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
+[nglemp.release]: https://mega.nz/file/NUFCVDyQ#hHkIGbPZFuofSjIgYEYMh33527XXl2UoQPaNiyKAuZY
+[nglemp.release.0.7.0.0]: https://mega.nz/file/NUFCVDyQ#hHkIGbPZFuofSjIgYEYMh33527XXl2UoQPaNiyKAuZY
 [nglemp.release.0.6.9.0]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
 [nglemp.release.0.5.1.0]: https://links.snahp.it/hW12j6rLJC4R4GYUx1BKn1JAcpfaWEFZYNU
 [nglemp.readme]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md
