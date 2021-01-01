@@ -69,7 +69,7 @@ This means:
 ## Supported Products
 
 - Adobe Photoshop 2021 (`22.1`, `22.0`)
-- Adobe Photoshop CC 2020 (`21.0`
+- Adobe Photoshop CC 2020 (`21.0`)
 - Adobe Photoshop CC 2019 (`20.0`)
 
 
@@ -100,6 +100,7 @@ This means:
 - [x] Host version autodetect. Version info removed from config
 - [x] Stability and performance improvements
 - [x] Tested all available public versions (2019, 2020, 2021)
+- [ ] All cloud features (Neural Filters etc) still require account
 
 ### 0.6.9.0
 
@@ -454,8 +455,8 @@ painter.cfg: OK
 Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
-[nglemp.release]: https://mega.nz/file/NUFCVDyQ#hHkIGbPZFuofSjIgYEYMh33527XXl2UoQPaNiyKAuZY
-[nglemp.release.0.7.0.0]: https://mega.nz/file/NUFCVDyQ#hHkIGbPZFuofSjIgYEYMh33527XXl2UoQPaNiyKAuZY
+[nglemp.release]: https://mega.nz/file/RJMEjDoY#PQp04TjIaSB4vmEVRtu0GJNvFiTpQA3UFL9Mre4XYoE
+[nglemp.release.0.7.0.0]: https://mega.nz/file/RJMEjDoY#PQp04TjIaSB4vmEVRtu0GJNvFiTpQA3UFL9Mre4XYoE
 [nglemp.release.0.6.9.0]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
 [nglemp.release.0.5.1.0]: https://links.snahp.it/hW12j6rLJC4R4GYUx1BKn1JAcpfaWEFZYNU
 [nglemp.readme]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md
