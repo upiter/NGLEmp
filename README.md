@@ -18,6 +18,7 @@ Best Photoshop 2021 and Photoshop CC 2019-2020 plugin.
 - [Known Issues](#known-issues)
 - [FAQ](#faq)
 - [Author](#author)
+- [Verify checksums](#verify-checksums)
 - [DOWNLOAD](#download)
 
 ---
@@ -27,7 +28,7 @@ Best Photoshop 2021 and Photoshop CC 2019-2020 plugin.
 - [NGLEmp Project Status](#nglemp-project-status)
 - [Target Audience](#target-audience)
 
-**NGLEmp** is an offline license enabler for Photoshop 2021 | CC 2020 | СС 2019 implemented as [Photoshop plugin][ps.plugin].
+**NGLEmp** is an offline license enabler for Photoshop 2021 | 2020 | СС 2019 implemented as [Photoshop plugin][ps.plugin].
 
 
 ### NGLEmp Project Status
@@ -68,8 +69,8 @@ This means:
 
 ## Supported Products
 
-- Adobe Photoshop 2021 (`22.1`, `22.0`)
-- Adobe Photoshop CC 2020 (`21.0`)
+- Adobe Photoshop 2021 (`22.0` — `22.5`)
+- Adobe Photoshop 2020 (`21.0`)
 - Adobe Photoshop CC 2019 (`20.0`)
 
 
@@ -77,11 +78,11 @@ This means:
 
 ### Adobe Photoshop 2021
 
-- 2021 `22.0.0`, `22.0.1` — `22.1.0`
+- 2021 `22.0.0` — `22.4.3`, `22.5.0`
 
-### Adobe Photoshop CC 2020
+### Adobe Photoshop 2020
 
-- CC 2020 `21.0.0` - `21.2.4`
+- 2020 `21.0.0` — `21.2.11`
 
 ### Adobe Photoshop CC 2019
 
@@ -90,6 +91,22 @@ This means:
 ---
 
 ## NGLEmp Versions History
+
+### 0.7.2.0
+
+`25 August 2021`
+
+- [x] Added `License` option to overide active license type to Tryout, for example.
+- [x] Added `AutoSerial` option to hide you real serial number from the "About" dialog. Yes, we do care about your privacy.
+
+### 0.7.1.0
+
+`24 August 2021`
+
+- [x] Support for Adobe Photoshop `2021` Summer release (22.5.x)
+- [x] Patterns are updated for different versions to speedup initial launch
+- [x] Stability improvements
+- [x] Added `Forced` mode parameter to config
 
 ### 0.7.0.0
 
@@ -165,7 +182,7 @@ Default **NGLEmp** installation path:
 %ProgramFiles%\Adobe\Adobe Photoshop 2021\Required\Plug-ins\Extensions\
 ```
 
-Note: You need to use real Adobe Photoshop 2021 | CC 2020 | CC 2019 installation path on your system.
+Note: You need to use real Adobe Photoshop 2021 | 2020 | CC 2019 installation path on your system.
 
 
 ### Existing Licensed Installation
@@ -187,7 +204,7 @@ Easy way to install and manage your Creative Cloud apps and services is [Creativ
 [Adobe ID][aid] is required for this type of installation!
 
 1. Install [Creative Cloud Desktop Application][cc.desktop.app].
-2. Install Adobe Photoshop 2021 | CC 2020 | CC 2019 using Creative Cloud Desktop Application.
+2. Install Adobe Photoshop 2021 | 2020 | CC 2019 using Creative Cloud Desktop Application.
 3. Install **NGLEmp**: see [NGLEmp Installation](#nglemp-installation).
 4. Enjoy!
 
@@ -198,7 +215,7 @@ Note: in this case you'll have bloated Creative Cloud desktop software installed
 
 This type of installation doesn't require Adobe ID.
 
-1. Install Adobe Photoshop 2021 | CC 2020 | CC 2019 using CCMaker (recommended) or by extracting installation files.
+1. Install Adobe Photoshop 2021 | 2020 | CC 2019 using CCMaker (recommended at least version `1.3.15`) or by extracting installation files.
 2. Install **NGLEmp**: see [NGLEmp Installation](#nglemp-installation).
 3. Enjoy!
 
@@ -233,7 +250,7 @@ Notes:
 - Admin rights required.
 - Change `PS_VERSION` to your Photoshop version.
 	- `PS_VERSION=2021`
-	- `PS_VERSION=CC 2020` 
+	- `PS_VERSION=2020` 
 	- `PS_VERSION=CC 2019` 
 - You need to use real Adobe Photoshop installation path on your system.
 
@@ -363,6 +380,12 @@ Attention: Don't change names of structures!
 
 Possible fields to edit in `painter.cfg`:
 
+- `License` type, possible options:
+	- Perpetual
+	- Subscription
+	- Tryout
+	- Volume
+- `AutoSerial` to hide your real serial number
 - `Profile` structure, offline stub only:
 	- Email
 	- UserID
@@ -404,6 +427,24 @@ Get valid checksums [online at NGLEmp project page][integrity].
 
 SHA-1 checksums of main files (stored in `NGLEmp.sha1`):
 
+#### NGLEmp 0.7.2.0
+
+For Adobe Photoshop 2021, CC 2019-2020.
+
+```
+793827d818e6d3a2be0c37721a0dd445fbe6d297 *NGLEmp.8bx
+c6ec8e18756d5ac04e2f98fcd797455236cb0f9c *painter.cfg
+```
+
+#### NGLEmp 0.7.1.0
+
+For Adobe Photoshop 2021, CC 2019-2020.
+
+```
+ee780843ce63f9d933c9cda5da1145386d46173e  NGLEmp.8bx
+ef128eb61a1c95b82d226be4457396f1ff92edea  painter.cfg
+```
+
 #### NGLEmp 0.7.0.0
 
 For Adobe Photoshop 2021, CC 2019-2020.
@@ -415,7 +456,7 @@ For Adobe Photoshop 2021, CC 2019-2020.
 
 #### NGLEmp v0.6.9.0
 
-For Adobe Photoshop CC 2019 and Adobe Photoshop CC 2020 pre-release.
+For Adobe Photoshop CC 2019 and Adobe Photoshop 2020 pre-release.
 
 ```
 6d2a3186ba475a1692fd5342b9aa27c30a4ca6f5  NGLEmp.8bx
@@ -431,10 +472,12 @@ For Adobe Photoshop CC 2019 only.
 79cf48966af218196042087cb8ba1a8cdee3264d  painter.cfg
 ```
 
+### Verify checksums
+
 Verify checksums (SHA-1):
 
-```
-shasum -c NGLEmp.sha1
+```sh
+sha1sum -c NGLEmp.sha1
 ```
 
 Correct answer:
@@ -443,6 +486,7 @@ Correct answer:
 NGLEmp.8bx: OK
 painter.cfg: OK
 ```
+
 **Don't use NGLEmp release if checksums mismatch!**
 
 ### Download now!
@@ -455,7 +499,8 @@ painter.cfg: OK
 Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
-[nglemp.release]: https://mega.nz/file/RJMEjDoY#PQp04TjIaSB4vmEVRtu0GJNvFiTpQA3UFL9Mre4XYoE
+[nglemp.release]: https://mega.nz/file/sJsiFDaI#2vyCACLKhP2dV0rh3RHfepFmcE1esrH35L0lI4UeXQQ
+[nglemp.release.0.7.2.0]: https://mega.nz/file/sJsiFDaI#2vyCACLKhP2dV0rh3RHfepFmcE1esrH35L0lI4UeXQQ
 [nglemp.release.0.7.0.0]: https://mega.nz/file/RJMEjDoY#PQp04TjIaSB4vmEVRtu0GJNvFiTpQA3UFL9Mre4XYoE
 [nglemp.release.0.6.9.0]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
 [nglemp.release.0.5.1.0]: https://links.snahp.it/hW12j6rLJC4R4GYUx1BKn1JAcpfaWEFZYNU
