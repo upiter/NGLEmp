@@ -65,6 +65,7 @@ This means:
 ## Supported Platforms
 
 - Windows only
+- [x86-64](https://en.wikipedia.org/wiki/X86-64) only
 
 
 ## Supported Products
