@@ -97,7 +97,7 @@ This means:
 
 `1 October 2021`
 
-- [x] Support for offline Neural-filters:
+- [x] Support for offline [Neural filters](#neural-filters-installation):
 	- Skin smoothing
 	- JPEG Artifacts Removal
 	- Style Transfer
@@ -161,6 +161,7 @@ Core components:
 
 - `NGLEmp.8bx` - NGLEmp plugin, **required**
 - `painter.cfg` - NGLEmp plugin configuration, **required**
+- `NGLEmp.b3` - [Checksums](#checksums) for release integrity check
 - `NGLEmp.sha1` - [Checksums](#checksums) for release integrity check
 - `README.md` - This [README][nglemp.readme] in Markdown (.md) format
 
@@ -176,6 +177,7 @@ Optional components:
 - [Existing Licensed Installation](#existing-licensed-installation)
 - [New Creative Cloud Installation](#new-creative-cloud-installation)
 - [New Clean Installation](#new-clean-installation)
+- [Neural-filters Installation](#neural-filters-installation)
 - [NGLEmp Installation](#nglemp-installation)
 - [Verify installation](#verify-installation)
 - [Home Screen](#home-screen)
@@ -238,6 +240,46 @@ Tip: You may disable installation of bloated `CCX Process` via CCMaker to save s
 Info: CCMaker doesn't install [Creative Cloud Desktop Application][cc.desktop.app], so you'll have even more space.
 
 Attention: Don't install AMTEmu, it won't work!
+
+
+### Neural filters Installation
+
+Neural filters are available since Photoshop CC 2021.
+
+- [Install Neural filters](#install-neural-filters)
+- [Backup Neural filters](#backup-neural-filters)
+- [Restore Neural filters](#restore-neural-filters)
+- [Download Issue](#neural-filters-download-issue)
+
+Learn more about the AI-driven filters available in the Neural Filters gallery, as well as answers to commonly asked questions.
+
+- [Make smarter edits with Neural Filters][neural-filter]
+- [Neural Filters][neural-filters]
+- [Neural Filters list and FAQ][neural-filters.list-and-faq]
+
+#### Install Neural filters
+
+Active subscription or Trial are required to Neural filters download!
+
+- Install trial version of Photoshop CC 2021 (22.5.0 or newer).
+- Log in to your [Adobe ID][aid] account.
+- Download filters using menu `Filter -> Neural Filters...`.
+
+#### Backup Neural filters
+
+Back up contents of neural filters gallery folder to use it on another computer:
+- `%AppData%\Adobe\UXP\PluginsStorage\PHSP\22\Internal\com.adobe.nfp.gallery`
+
+#### Restore Neural filters
+
+In case of another clean installation without Adobe ID:
+- copy contents of [previously backed up folder](#backup-neural-filters) to the same path.
+
+#### Neural filters Download Issue
+
+If you get an error when you try to download Neural Filters:
+- Delete `%AppData%\Adobe\UXP` folder.
+- Restart application and try again.
 
 
 ### NGLEmp Installation
@@ -501,7 +543,8 @@ painter.cfg: OK
 Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
-[nglemp.release]: https://mega.nz/file/sJsiFDaI#2vyCACLKhP2dV0rh3RHfepFmcE1esrH35L0lI4UeXQQ
+[nglemp.release]: https://mega.nz
+[nglemp.release.0.8.0.0]: https://mega.nz
 [nglemp.release.0.7.2.0]: https://mega.nz/file/sJsiFDaI#2vyCACLKhP2dV0rh3RHfepFmcE1esrH35L0lI4UeXQQ
 [nglemp.release.0.7.0.0]: https://mega.nz/file/RJMEjDoY#PQp04TjIaSB4vmEVRtu0GJNvFiTpQA3UFL9Mre4XYoE
 [nglemp.release.0.6.9.0]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
@@ -511,6 +554,9 @@ Enjoy!
 [ccx.start]: https://links.snahp.it/qcB679fxpTCaqv30DitWoHG1gnXmeB7g7BI
 [issue]: https://github.com/NGLEmp/NGLEmp/issues
 [ps.plugin]: https://en.wikipedia.org/wiki/Photoshop_plugin
+[neural-filter]: https://www.adobe.com/products/photoshop/neural-filter.html
+[neural-filters]: https://helpx.adobe.com/photoshop/using/neural-filters.html
+[neural-filters.list-and-faq]: https://helpx.adobe.com/photoshop/using/neural-filters-list-and-faq.html
 [privacy]: https://www.adobe.com/privacy.html
 [genuine]: https://www.adobe.com/genuine.html
 [aid]: https://account.adobe.com
