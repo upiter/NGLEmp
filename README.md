@@ -93,6 +93,19 @@ This means:
 
 ## NGLEmp Versions History
 
+### 0.8.0.0
+
+`1 October 2021`
+
+- [x] Support for offline Neural-filters:
+	- Skin smoothing
+	- JPEG Artifacts Removal
+	- Style Transfer
+	- Makeup Transfer
+	- Super Zoom
+	- Colorize
+- [x] Updated internal structures
+
 ### 0.7.2.0
 
 `25 August 2021`
@@ -422,26 +435,48 @@ Always [verify integrity][integrity] of NGLEmp release!
 
 It's very important to verify before install that **NGLEmp** release wasn't corrupted!
 
-If **NGLEmp** checksums mismatch or your distribution doesn't have `NGLEmp.sha1` file, then release may be corrupted or infected with malware!
+If **NGLEmp** checksums mismatch or your distribution doesn't have `NGLEmp.b3` and `NGLEmp.sha1` file, then release may be corrupted or infected with malware!
 
 Get valid checksums [online at NGLEmp project page][integrity].
 
-SHA-1 checksums of main files (stored in `NGLEmp.sha1`):
+BLAKE3 and SHA-1 checksums of main files (stored in `NGLEmp.b3` and `NGLEmp.sha1`):
 
-#### NGLEmp 0.7.2.0
+## NGLEmp 0.8.0.0
 
 For Adobe Photoshop 2021, CC 2019-2020.
 
+### BLAKE3
+
 ```
-793827d818e6d3a2be0c37721a0dd445fbe6d297 *NGLEmp.8bx
-c6ec8e18756d5ac04e2f98fcd797455236cb0f9c *painter.cfg
+fbb0c5c02ca0e1e7ccc01ca38adaecf1fa9e2a6fad1ad7fe296b66c02400ce03  NGLEmp.8bx
+8d53400efd802e0e1d54ba5cc0e8e8ed59da2c0f0499e2a5333abeee5b271868  painter.cfg
+```
+
+### SHA-1
+
+```
+a036199801a9c4a1f6523dea63bb6e114bbfe10d *NGLEmp.8bx
+664a96376fee1a2a22fa2cc7252776ce40eda2b3 *painter.cfg
 ```
 
 Note: Previous NGLEmp versions are listed in [VERSIONS](VERSIONS.md).
 
 ### Verify checksums
 
-Verify checksums (SHA-1):
+#### Verify BLAKE3 checksums
+
+```sh
+b3sum -c NGLEmp.b3
+```
+
+Correct answer:
+
+```
+NGLEmp.8bx: OK
+painter.cfg: OK
+```
+
+#### Verify SHA-1 checksums
 
 ```sh
 sha1sum -c NGLEmp.sha1
@@ -454,7 +489,7 @@ NGLEmp.8bx: OK
 painter.cfg: OK
 ```
 
-**Don't use NGLEmp release if checksums mismatch!**
+**Never use NGLEmp release if checksums mismatch!**
 
 ### Download now!
 
