@@ -543,8 +543,8 @@ painter.cfg: OK
 Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
-[nglemp.release]: https://mega.nz
-[nglemp.release.0.8.0.0]: https://mega.nz
+[nglemp.release]: https://mega.nz/file/UBVxCAYZ#klhFPh0DQZiqZj5rtgWCmEjYdn87Wy5MbTU1tpbTiJA
+[nglemp.release.0.8.0.0]: https://mega.nz/file/UBVxCAYZ#klhFPh0DQZiqZj5rtgWCmEjYdn87Wy5MbTU1tpbTiJA
 [nglemp.release.0.7.2.0]: https://mega.nz/file/sJsiFDaI#2vyCACLKhP2dV0rh3RHfepFmcE1esrH35L0lI4UeXQQ
 [nglemp.release.0.7.0.0]: https://mega.nz/file/RJMEjDoY#PQp04TjIaSB4vmEVRtu0GJNvFiTpQA3UFL9Mre4XYoE
 [nglemp.release.0.6.9.0]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
