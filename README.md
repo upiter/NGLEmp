@@ -1,6 +1,6 @@
 # NGLEmp
 
-Best Photoshop 2021 and Photoshop CC 2019-2020 plugin.
+Best Photoshop 2022, 2021 and Photoshop CC 2019-2020 plugin.
 
 ![](NGLEmp.png)
 
@@ -70,12 +70,17 @@ This means:
 
 ## Supported Products
 
+- Adobe Photoshop 2022 (`23.0`)
 - Adobe Photoshop 2021 (`22.0` — `22.5`)
 - Adobe Photoshop 2020 (`21.0`)
 - Adobe Photoshop CC 2019 (`20.0`)
 
 
 ## Tested Photoshop versions
+
+### Adobe Photoshop 2022
+
+- 2022 `23.0.0`
 
 ### Adobe Photoshop 2021
 
@@ -92,6 +97,12 @@ This means:
 ---
 
 ## NGLEmp Versions History
+
+### 0.8.1.0
+
+`30 October 2021`
+
+- [x] Support for Adobe Photoshop `2022` (`23.0`)
 
 ### 0.8.0.0
 
@@ -125,6 +136,7 @@ This means:
 ### 0.7.0.0
 
 `29 December 2020`
+
 - [x] Support for Adobe Photoshop `2021`
 - [x] Display plugin and host versions
 - [x] Patterns are updated for different versions to speedup initial launch
@@ -136,6 +148,7 @@ This means:
 ### 0.6.9.0
 
 `29 October 2019`
+
 - [x] Support for Adobe Photoshop CC `2020`
 
 ### 0.5.1.0
@@ -483,21 +496,21 @@ Get valid checksums [online at NGLEmp project page][integrity].
 
 BLAKE3 and SHA-1 checksums of main files (stored in `NGLEmp.b3` and `NGLEmp.sha1`):
 
-## NGLEmp 0.8.0.0
+## NGLEmp 0.8.1.0
 
-For Adobe Photoshop 2021, CC 2019-2020.
+For Adobe Photoshop 2022, 2021, CC 2019-2020.
 
 ### BLAKE3
 
 ```
-fbb0c5c02ca0e1e7ccc01ca38adaecf1fa9e2a6fad1ad7fe296b66c02400ce03  NGLEmp.8bx
+dea52b16ae93ce9ce71412ba7eacf90292c45a9dca1b033b0b9072ccea96d56c  NGLEmp.8bx
 8d53400efd802e0e1d54ba5cc0e8e8ed59da2c0f0499e2a5333abeee5b271868  painter.cfg
 ```
 
 ### SHA-1
 
 ```
-a036199801a9c4a1f6523dea63bb6e114bbfe10d *NGLEmp.8bx
+3eb7395e72a80df76ffc45ad846340d230225bb5 *NGLEmp.8bx
 664a96376fee1a2a22fa2cc7252776ce40eda2b3 *painter.cfg
 ```
 
@@ -543,7 +556,8 @@ painter.cfg: OK
 Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
-[nglemp.release]: https://mega.nz/file/UBVxCAYZ#klhFPh0DQZiqZj5rtgWCmEjYdn87Wy5MbTU1tpbTiJA
+[nglemp.release]: https://mega.nz/
+[nglemp.release.0.8.1.0]: https://mega.nz
 [nglemp.release.0.8.0.0]: https://mega.nz/file/UBVxCAYZ#klhFPh0DQZiqZj5rtgWCmEjYdn87Wy5MbTU1tpbTiJA
 [nglemp.release.0.7.2.0]: https://mega.nz/file/sJsiFDaI#2vyCACLKhP2dV0rh3RHfepFmcE1esrH35L0lI4UeXQQ
 [nglemp.release.0.7.0.0]: https://mega.nz/file/RJMEjDoY#PQp04TjIaSB4vmEVRtu0GJNvFiTpQA3UFL9Mre4XYoE
