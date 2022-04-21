@@ -105,6 +105,7 @@ painter.cfg: OK
 
 <!-- Current NGLEmp release -->
 [nglemp.release]: https://mega.nz/file/wVNlXK6L#-rM0Rj58hses9icbgcR1FdFKXSOstLsi3LqGkvQzFh0
+[integrity]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md#checksums
 <!-- Previous NGLEmp releases -->
 [nglemp.release.0.8.2.0]: https://mega.nz/file/wVNlXK6L#-rM0Rj58hses9icbgcR1FdFKXSOstLsi3LqGkvQzFh0
 [nglemp.release.0.8.1.0]: https://mega.nz/file/cFkhBC5L#9CEGjaIqPG_NOCwT13aU1C3he_J9c9L1NxJEk0KNHog
