@@ -70,7 +70,7 @@ This means:
 
 ## Supported Products
 
-- Adobe Photoshop 2022 (`23.0`)
+- Adobe Photoshop 2022 (`23.0` — `23.3`)
 - Adobe Photoshop 2021 (`22.0` — `22.5`)
 - Adobe Photoshop 2020 (`21.0`)
 - Adobe Photoshop CC 2019 (`20.0`)
@@ -80,7 +80,7 @@ This means:
 
 ### Adobe Photoshop 2022
 
-- 2022 `23.0.0`
+- 2022 `23.0.0` — `23.3`
 
 ### Adobe Photoshop 2021
 
@@ -496,22 +496,22 @@ Get valid checksums [online at NGLEmp project page][integrity].
 
 BLAKE3 and SHA-1 checksums of main files (stored in `NGLEmp.b3` and `NGLEmp.sha1`):
 
-## NGLEmp 0.8.1.0
+## NGLEmp 0.8.2.0
 
 For Adobe Photoshop 2022, 2021, CC 2019-2020.
 
 ### BLAKE3
 
 ```
-dea52b16ae93ce9ce71412ba7eacf90292c45a9dca1b033b0b9072ccea96d56c  NGLEmp.8bx
-8d53400efd802e0e1d54ba5cc0e8e8ed59da2c0f0499e2a5333abeee5b271868  painter.cfg
+879c7cb5bcb4b2b5d89195634e47e78f9a4c143dbad30f7978e5a83cd728c4e8  NGLEmp.8bx
+df3e014fe6a2886b027c66adaba9c9b62926cddde530768e67f964f025eeeffd  painter.cfg
 ```
 
 ### SHA-1
 
 ```
-3eb7395e72a80df76ffc45ad846340d230225bb5 *NGLEmp.8bx
-664a96376fee1a2a22fa2cc7252776ce40eda2b3 *painter.cfg
+9ae8f6c934e7a431ece91c2c40615e40243a31cd *NGLEmp.8bx
+69a1167e7022ba7538fa6984dc890436882a6092 *painter.cfg
 ```
 
 Note: Previous NGLEmp versions are listed in [VERSIONS](VERSIONS.md).
@@ -556,16 +556,17 @@ painter.cfg: OK
 Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
-[nglemp.release]: https://mega.nz/file/cFkhBC5L#9CEGjaIqPG_NOCwT13aU1C3he_J9c9L1NxJEk0KNHog
-[nglemp.release.0.8.1.0]: https://mega.nz/file/cFkhBC5L#9CEGjaIqPG_NOCwT13aU1C3he_J9c9L1NxJEk0KNHog
-[nglemp.release.0.8.0.0]: https://mega.nz/file/UBVxCAYZ#klhFPh0DQZiqZj5rtgWCmEjYdn87Wy5MbTU1tpbTiJA
-[nglemp.release.0.7.2.0]: https://mega.nz/file/sJsiFDaI#2vyCACLKhP2dV0rh3RHfepFmcE1esrH35L0lI4UeXQQ
-[nglemp.release.0.7.0.0]: https://mega.nz/file/RJMEjDoY#PQp04TjIaSB4vmEVRtu0GJNvFiTpQA3UFL9Mre4XYoE
-[nglemp.release.0.6.9.0]: https://mega.nz/#!HMUl0AaR!FSXDQY_1Bd0Rs4XX5GYCybrmep_s2JfD7ZyHhtKu7_k
-[nglemp.release.0.5.1.0]: https://links.snahp.it/hW12j6rLJC4R4GYUx1BKn1JAcpfaWEFZYNU
+[nglemp.release]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#download
+[nglemp.release.0.8.2.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0820
+[nglemp.release.0.8.1.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0810
+[nglemp.release.0.8.0.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0800
+[nglemp.release.0.7.2.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0720
+[nglemp.release.0.7.0.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0700
+[nglemp.release.0.6.9.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0690
+[nglemp.release.0.5.1.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0510
 [nglemp.readme]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md
 [integrity]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md#checksums
-[ccx.start]: https://links.snahp.it/qcB679fxpTCaqv30DitWoHG1gnXmeB7g7BI
+[ccx.start]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md
 [issue]: https://github.com/NGLEmp/NGLEmp/issues
 [ps.plugin]: https://en.wikipedia.org/wiki/Photoshop_plugin
 [neural-filter]: https://www.adobe.com/products/photoshop/neural-filter.html
