@@ -98,6 +98,12 @@ This means:
 
 ## NGLEmp Versions History
 
+### 0.8.2.0
+
+`18 April 2022`
+
+- [x] Support for Adobe Photoshop `2022` (`23.3`)
+
 ### 0.8.1.0
 
 `30 October 2021`
