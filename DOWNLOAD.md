@@ -37,27 +37,28 @@ Get valid checksums [online at NGLEmp project page][integrity].
 
 BLAKE3 and SHA-1 checksums of main files (stored in `NGLEmp.b3` and `NGLEmp.sha1`):
 
-<a name="v0820"></a>
+<a name="v0821"></a>
 
-## NGLEmp 0.8.2.0
+## NGLEmp 0.8.2.1
 
 For Adobe Photoshop 2022, 2021, CC 2019-2020.
 
 ### BLAKE3
 
 ```
-879c7cb5bcb4b2b5d89195634e47e78f9a4c143dbad30f7978e5a83cd728c4e8  NGLEmp.8bx
-df3e014fe6a2886b027c66adaba9c9b62926cddde530768e67f964f025eeeffd  painter.cfg
+6666fbb0c4f48cfd1edb75c4deb92f83360068b527bab43d74c59802d8becd7d  NGLEmp.8bx
+00ccf5773d7bf091810c2eee1cb76c38f786c8b4145a92f9a5df5375f45f5223  painter.cfg
 ```
 
 ### SHA-1
 
 ```
-9ae8f6c934e7a431ece91c2c40615e40243a31cd *NGLEmp.8bx
-69a1167e7022ba7538fa6984dc890436882a6092 *painter.cfg
+4ff045dc267a8349343ee8b0b8fbd6e4ebe39aac *NGLEmp.8bx
+31f4b686dc5086f5df498dc9176df98038ae8bd9 *painter.cfg
 ```
 
 <!-- Archived version -->
+<a name="v0820"></a>
 <a name="v0810"></a>
 <a name="v0800"></a>
 <a name="v0720"></a>
@@ -104,9 +105,10 @@ painter.cfg: OK
 
 
 <!-- Current NGLEmp release -->
-[nglemp.release]: https://mega.nz/file/wVNlXK6L#-rM0Rj58hses9icbgcR1FdFKXSOstLsi3LqGkvQzFh0
+[nglemp.release]: https://mega.nz/file/EN0EnIiA#o6PuWoSlMsQ__-Dttqn4WeqRCzwO50I3CzPVNghn27A
 [integrity]: https://github.com/NGLEmp/NGLEmp/blob/master/README.md#checksums
 <!-- Previous NGLEmp releases -->
+[nglemp.release.0.8.2.1]: https://mega.nz/file/EN0EnIiA#o6PuWoSlMsQ__-Dttqn4WeqRCzwO50I3CzPVNghn27A
 [nglemp.release.0.8.2.0]: https://mega.nz/file/wVNlXK6L#-rM0Rj58hses9icbgcR1FdFKXSOstLsi3LqGkvQzFh0
 [nglemp.release.0.8.1.0]: https://mega.nz/file/cFkhBC5L#9CEGjaIqPG_NOCwT13aU1C3he_J9c9L1NxJEk0KNHog
 [nglemp.release.0.8.0.0]: https://mega.nz/file/UBVxCAYZ#klhFPh0DQZiqZj5rtgWCmEjYdn87Wy5MbTU1tpbTiJA

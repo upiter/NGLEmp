@@ -1,5 +1,6 @@
 # NGLEmp Versions
 
+- NGLEmp 0.8.2.1
 - NGLEmp 0.8.2.0
 - NGLEmp 0.8.1.0
 - NGLEmp 0.8.0.0
@@ -7,6 +8,25 @@
 - NGLEmp 0.7.0.0
 - NGLEmp 0.6.9.0
 - NGLEmp 0.5.1.0
+
+
+## NGLEmp 0.8.2.1
+
+For Adobe Photoshop 2022, 2021, CC 2019-2020.
+
+### BLAKE3
+
+```
+6666fbb0c4f48cfd1edb75c4deb92f83360068b527bab43d74c59802d8becd7d  NGLEmp.8bx
+00ccf5773d7bf091810c2eee1cb76c38f786c8b4145a92f9a5df5375f45f5223  painter.cfg
+```
+
+### SHA-1
+
+```
+4ff045dc267a8349343ee8b0b8fbd6e4ebe39aac *NGLEmp.8bx
+31f4b686dc5086f5df498dc9176df98038ae8bd9 *painter.cfg
+```
 
 
 ## NGLEmp 0.8.2.0

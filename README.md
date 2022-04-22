@@ -98,11 +98,17 @@ This means:
 
 ## NGLEmp Versions History
 
+### 0.8.2.1
+
+`22 April 2022`
+
+- [x] Support for Adobe Photoshop `2022` (`23.3.1`)
+
 ### 0.8.2.0
 
 `18 April 2022`
 
-- [x] Support for Adobe Photoshop `2022` (`23.3`)
+- [x] Support for Adobe Photoshop `2022` (`23.3.0`)
 
 ### 0.8.1.0
 
@@ -563,6 +569,7 @@ Enjoy!
 
 [cc.desktop.app]: https://www.adobe.com/creativecloud/desktop-app.html
 [nglemp.release]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#download
+[nglemp.release.0.8.2.1]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0821
 [nglemp.release.0.8.2.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0820
 [nglemp.release.0.8.1.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0810
 [nglemp.release.0.8.0.0]: https://github.com/NGLEmp/NGLEmp/blob/master/DOWNLOAD.md#v0800
